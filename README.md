@@ -3,7 +3,7 @@
 ## Overview
 This project is part of my Spring Boot learning journey, where I explored **Spring Data JPA** to perform database operations efficiently.
 
-The goal of this project is to understand how backend applications interact with databases using JPA.
+The goal of this project is to understand how backend applications interact with databases using JPA and hibernate.
 
 ---
 
