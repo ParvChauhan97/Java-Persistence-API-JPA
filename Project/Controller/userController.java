@@ -11,7 +11,6 @@ import java.util.List;
 public class UserController {
 
     UserService userservice;
-
     public UserController(UserService userservice) {
         this.userservice = userservice;
     }
