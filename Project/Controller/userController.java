@@ -14,7 +14,7 @@ public class UserController {
     public UserController(UserService userservice) {
         this.userservice = userservice;
     }
-
+    
     @PostMapping
     public ResponseEntity<UserClassSpringBoot> createUser(@RequestBody UserClassSpringBoot user) {
         return ResponseEntity.status(HttpStatus.CREATED).body(userservice.create(user));
