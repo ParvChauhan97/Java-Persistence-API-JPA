@@ -9,7 +9,7 @@ public class UserService {
     public UserService(UserRepo userrepo) {
         this.userrepo = userrepo;
     }
-
+ 
     public UserClassSpringBoot create(UserClassSpringBoot user) {
         return userrepo.save(user);
     }
